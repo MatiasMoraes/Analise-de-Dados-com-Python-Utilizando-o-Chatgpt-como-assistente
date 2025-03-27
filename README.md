@@ -31,19 +31,19 @@ O DataFrame "df" possui as colunas "item_identificador", "loja_identificador", "
 As colunas "item" e "loja" contêm dicionários aninhados dentro de cada uma das linhas. Como posso transformar os dados dos dicionários e colunas para torná-los mais acessíveis no meu DataFrame?
 
 
-# Importe a função json_normalize
+.# Importe a função json_normalize
 from pandas import json_normalize
 
-# Normalize os dados da coluna "item"
+.# Normalize os dados da coluna "item"
 df_item_normalized = json_normalize(df['item'])
 
-# Normalize os dados da coluna "loja"
+.# Normalize os dados da coluna "loja"
 df_loja_normalized = json_normalize(df['loja'])
 
-# Combine os DataFrames normalizados com o DataFrame original
+.# Combine os DataFrames normalizados com o DataFrame original
 df = pd.concat([df, df_item_normalized, df_loja_normalized], axis=1)
 
-# Exclua as colunas originais de "item" e "loja" se necessário
+.# Exclua as colunas originais de "item" e "loja" se necessário
 df.drop(['item', 'loja'], axis=1, inplace=True)
 df
 
