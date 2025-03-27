@@ -1,4 +1,4 @@
-cópia_de_notebook_análise_de_dados_com_python_utilizando_o_chatgpt_como_assistente.py
+[cópia_de_notebook_análise_de_dados_com_python_utilizando_o_chatgpt_como_assistente.py](https://github.com/MatiasMoraes/Analise-de-Dados-com-Python-Utilizando-o-Chatgpt-como-assistente/blob/c796b5d1d61b5089a46e6a8060ec1713453c9604/c%C3%B3pia_de_notebook_an%C3%A1lise_de_dados_com_python_utilizando_o_chatgpt_como_assistente.py)
 
 
 
